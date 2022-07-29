@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./mobileStyles.css">
+  <script src="./script.js" defer></script>
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+</head>
+
+<body class="preload">
+  <div class="container">
+    <header class="header">
+      <img src="./images/logo.svg" alt="logo" class="logo">
+      <div class="score">
+        <div class="score_title">SCORE
+          <button class="reset">
+            <img width="22px" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-refresh-web-flaticons-lineal-color-flat-icons-2.png"/>
+          </button>
+        </div>
+        <div class="score_number"></div>
+      </div>
+    </header>
+
+    <section class="game">
+      <button class="choice-btn" data-choice="paper">
+        <div class="choice paper">
+          <img src="./images/icon-paper.svg" alt="paper">
+        </div>
+      </button>
+      <button class="choice-btn" data-choice="scissors">
+        <div class="choice scissors">
+          <img src="./images//icon-scissors.svg" alt="scissors">
+        </div>
+      </button>
+      <button class="choice-btn" data-choice="rock">
+        <div class="choice rock">
+          <img src="./images//icon-rock.svg" alt="rock">
+        </div>
+      </button>
+    </section>
+  </div>
+
+
+  <div class="modal">
+    <div class="modal-container">
+      <header class="modal-header">
+        <h1 class="modal-heading">rules</h1>
+        <button class="close-btn">
+          <img src="./images/icon-close.svg" alt="Close Button" />
+        </button>
+      </header>
+      <img class="rules-img" src="./images/image-rules.svg" alt="Rules Image">
+    </div>
+  </div>
+
+  <section class="results hidden">
+    <h1 class="results-heading">you picked</h1>
+    <h1 class="results-heading">the house picked</h1>
+    <div class="results-result"></div>
+    <div class="results-winner hidden">
+        <h3 class="results-text"></h3>
+        <button class="play-again">play again</button>
+    </div>
+    <div class="results-result"></div>
+  </section>
+
+  <div class="btn-div">
+    <button class="rules-btn" tabindex="1">rules</button>
+  </div>
+
+</body>
+
+</html>
