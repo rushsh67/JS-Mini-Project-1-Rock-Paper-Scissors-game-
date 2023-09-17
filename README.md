@@ -1,6 +1,6 @@
 # JS-Mini-Project-1-Rock-Paper-Scissors-game-
 FrontendMentor advanced challange Classic Rock Paper Scissors Game implemented using JavaScript , HTML and CSS. Projects UI makes playing game more interactive and fun.
-Link https://rockpaperscisssors.netlify.app/
+[ live project Link] (https://rockpaperscisssors.netlify.app/)
 
   ![image](https://user-images.githubusercontent.com/106526534/181801503-0d06855e-2b76-4361-9ce6-ef00abcf46d2.png) 
   ![image](https://user-images.githubusercontent.com/106526534/181801586-552ee3a6-dc67-470d-a9ec-100b7d2f46db.png)
